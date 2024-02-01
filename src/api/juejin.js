@@ -11,7 +11,7 @@ module.exports = function () {
         url: `https://api.juejin.cn/growth_api/v1/check_in?aid=${AID}&spider=0&msToken=${MS_TOKEN}&a_bogus=EJUmfOZMMsm1qX3FqhDz9JfEQ960YW-ogZEPq5XjwzoS`,
         method: 'post',
         headers: {
-          cookie: COOKIE,
+          'cookie': COOKIE,
           'X-Ms-Token': MS_TOKEN,
           'X-Tt-Logid': LOGID
         }
